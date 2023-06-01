@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+header {
+  background-color: #222222;
+  color: #ffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+  height: 13vh;
+  
+}
+
+header ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.info-pizzas{
+    height: 67vh;
+    padding: 3rem;
+    display: flex;
+    /* width: 80%; */
+    /* border: 2px solid red; */
+    margin: 0 3rem;
+
+}
+
+.delivery{
+    width: 50%;
+    background-image: url(./images/delivery.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    color: #FC200C;
+    font-size: 2rem;
+    padding: 2rem;
+
+}
+
+.comprando{
+    color: #ffff;
+}
+
+
+.podio-pizzas{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    color: #FC200C;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
+
+    
+}
+
+.podio-pizzas h2{
+    font-size: 2rem;
+}
+
+.list-pizzas{  
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid violet; */
+    color: #222222;
+    font-size: 1.2rem;
+    gap: 2rem;
+    width: 50%;
+    height: 80%;
+    text-align: left;
+
+}
+
+.list-pizzas ol{
+    line-height: 2rem;
+}
+
+.list-img{
+    display: flex;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 1rem;
+}
+
+.list-img img{
+    width: 50%;
+    height: 80%;
+    padding: 4rem;
+    /* border: 2px solid orange; */
+
+}
+
+
+footer {
+  background-color: #222222;
+  color: #ffff;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    list-style: none;
+}
